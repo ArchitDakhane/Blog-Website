@@ -3,8 +3,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
-    /* background-image: url(./Images/writeBg.jpg);
-    background-size: cover; */
     margin: 0;
     padding: 0;
 }
@@ -24,10 +22,6 @@ h1 {
     color: #0b0b0b;
     margin-bottom: 30px;
     font-size: 40px;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 10px;
 }
 
 .form-group {
@@ -80,8 +74,6 @@ textarea::placeholder {
 .submit-btn-container {
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin-top: 20px;
 }
 
 .submit-btn {
@@ -97,10 +89,6 @@ textarea::placeholder {
     -o-border-radius: 8px;
     font-size: 19px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     transition: background-color 0.3s ease;
     -webkit-transition: background-color 0.3s ease;
     -moz-transition: background-color 0.3s ease;

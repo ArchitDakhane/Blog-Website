@@ -164,8 +164,6 @@ body {
     font-size: 18px;
     z-index: 100;
     transition: background-color 0.3s, transform 0.3s;
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .create-tab a {
@@ -224,7 +222,7 @@ body {
 
 .tech-content p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     margin-top: 0;
     color: #555;
 }
@@ -232,8 +230,8 @@ body {
 
 .tech-posts {
     display: grid;
-    grid-template-columns: repeat(2, 430px); /* Two equal-width columns */
-    gap: 20px; /* Space between posts */
+    grid-template-columns: repeat(2, 430px); 
+    gap: 20px; 
     margin-top: 20px;
 }
 
@@ -251,46 +249,14 @@ body {
 }
 
 .tech-post {
-    display: flex;
-    align-items: flex-start;
-    background-color: #fff;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    padding: 15px;
-    flex-direction: column;
-    text-align: left;
-    -webkit-transition: transform 0.3s, box-shadow 0.3s;
-    -moz-transition: transform 0.3s, box-shadow 0.3s;
-    -ms-transition: transform 0.3s, box-shadow 0.3s;
-    -o-transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-
-.tech-post {
-    display: flex;
-    align-items: flex-start;
     background-color: #fff;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     padding: 15px; 
-    flex-direction: column;
     text-align: left;
     max-width: 700px; 
-    margin: 0 auto; 
-}
-
-.post-details {
-    padding: 0;
 }
 
 .tech-post h2 {
@@ -307,12 +273,10 @@ body {
 
 .tech-post p {
     font-size: 16px;
-    margin-bottom: 15px;
     color: #666;
 }
 
 .read-more {
-    display: inline-block;
     padding: 6px 12px;
     background-color: #3498db;
     text-decoration: none;
@@ -333,20 +297,17 @@ body {
 .post-action {
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 12px 0;
     margin-top: 15px;
 }
 
 .post-action .action {
-    display: flex;
     cursor: pointer;
-    padding: 0 15px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    position: relative;
     font-weight: 600;
 }
 
@@ -359,8 +320,6 @@ body {
 }
 
 .like-icon, .share-icon, .comment-icon {
-    margin-right: 8px;
-    font-size: 18px;
     transition: transform 0.3s ease, color 0.3s ease;
     -webkit-transition: transform 0.3s ease, color 0.3s ease;
     -moz-transition: transform 0.3s ease, color 0.3s ease;
