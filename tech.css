@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-/***** Navbar Section *****/ 
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -9,6 +7,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/***** Navbar Section *****/ 
 
 .navbar {
     background-color: #92c8f8;
@@ -64,6 +63,7 @@ body {
     -o-transform: scale(1.1);
 }
 
+
 .navbar .logo img {
     height: 40px;
     vertical-align: middle;
@@ -89,9 +89,6 @@ body {
 
 .search-bar {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
 }
 
 .search-bar input[type="text"] {
@@ -123,18 +120,13 @@ body {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    /* text-align: right; */
     margin-right: 30px;
 }
 
 .navbar .right a {
     background-color: rgb(146, 200, 247);
     color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 25px;
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
     transition: background-color 0.3s, transform 0.3s;
     -webkit-transition: background-color 0.3s, transform 0.3s;
     -moz-transition: background-color 0.3s, transform 0.3s;
@@ -144,7 +136,6 @@ body {
 
 .navbar .right i {
     margin-right: 8px;
-    font-size: 16px; 
     transition: transform 0.3s ease; 
 }
 
@@ -161,7 +152,7 @@ body {
  /***** End Navbar Section *****/
 
 
- .create-tab {
+.create-tab {
     position: fixed;
     bottom: 70px; 
     right: 20px;  

@@ -3,8 +3,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    /* background-image: url(./Images/bodyBg.jpeg); */
-    /* background-size: cover; */
     padding: 0;
     background-color: #f4f4f4;
 }
@@ -65,9 +63,6 @@ body {
     -o-transform: scale(1.1);
 }
 
-/* .navbar img {
-    width: 100px;
-} */
 
 .navbar .logo img {
     height: 40px;
@@ -75,9 +70,7 @@ body {
     width: 100px;
 }
 
-
 .logo a
-
 
 .navbar .logo {
     flex: 1;
@@ -96,9 +89,6 @@ body {
 
 .search-bar {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
 }
 
 .search-bar input[type="text"] {
@@ -130,18 +120,13 @@ body {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    /* text-align: right; */
     margin-right: 30px;
 }
 
 .navbar .right a {
     background-color: rgb(146, 200, 247);
     color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 25px;
     text-decoration: none;
-    /* display: inline-flex; */
-    align-items: center;
     transition: background-color 0.3s, transform 0.3s;
     -webkit-transition: background-color 0.3s, transform 0.3s;
     -moz-transition: background-color 0.3s, transform 0.3s;
@@ -151,9 +136,7 @@ body {
 
 .navbar .right i {
     margin-right: 8px;
-    font-size: 16px; 
     transition: transform 0.3s ease; 
-    /* color: #333; */
 }
 
 .navbar .right a:hover {
@@ -183,15 +166,11 @@ body {
     font-size: 18px;
     z-index: 100;
     transition: background-color 0.3s, transform 0.3s;
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .create-tab a {
     color: white;
     text-decoration: none;
-    display: flex;
-    align-items: center;
 }
 
 .create-tab i {
@@ -238,7 +217,6 @@ body {
     font-weight: 300;
     line-height: 1.8;
     color: #7a7272;
-    max-width: 800px;
     margin: 0 auto 40px auto;
     animation: fadeInUp 1.5s ease-in-out;
     -webkit-animation: fadeInUp 1.5s ease-in-out;
@@ -306,11 +284,6 @@ body {
     z-index: 0;
 }
 
-.content h1, .content p {
-    position: relative;
-    z-index: 1;
-}
-
 .featured-posts {
     padding: 60px 20px;
     background-color: white;
@@ -331,8 +304,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 225px));
     gap: 180px;
-    justify-items: center;
-    justify-content: center;
     padding: 0 20px;
     max-width: 1200px;
 }
@@ -363,7 +334,6 @@ body {
 .post {
     background-color: white;
     padding: 20px;
-
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -375,9 +345,9 @@ body {
     -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
     -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
     -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 350px;
-    position: relative;
-    overflow: hidden;
+    /* max-width: 350px; */
+    /* position: relative; */
+    /* overflow: hidden; */
 }
 
 .post:hover {
