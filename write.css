@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    /* background-image: url(./Images/writeBg.jpg);
+    background-size: cover; */
+    margin: 0;
+    padding: 0;
+}
+
+.write-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in;
+}
+
+h1 {
+    text-align: center;
+    color: #0b0b0b;
+    margin-bottom: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 19px;
+    color: #0b0b0b;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input[type="text"] , textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1.8px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    transition: border-color 0.3 ease;
+    -webkit-transition: border-color 0.3 ease;
+    -moz-transition: border-color 0.3 ease;
+    -ms-transition: border-color 0.3 ease;
+    -o-transition: border-color 0.3 ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #0c0c0c;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.submit-btn-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    width: 70%;
+    padding: 15px;
+    background-color: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 19px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2a5298;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
