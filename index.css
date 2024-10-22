@@ -521,6 +521,8 @@ body {
     -o-transform: translateY(-2px);
 }
 
+/***** End Home Section *****/
+
 /** Footer Section **/
 
 .footer {
@@ -630,4 +632,4 @@ body {
     background: #f0f0f0; 
 }
 
- /***** End Home Section *****/
+
