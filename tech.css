@@ -11,12 +11,11 @@ body {
 
 .navbar {
     background-color: #92c8f8;
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -162,7 +161,6 @@ body {
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 18px;
-    z-index: 100;
     transition: background-color 0.3s, transform 0.3s;
 }
 
